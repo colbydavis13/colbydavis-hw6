@@ -9,3 +9,22 @@ body {
     background-color: white;
     border: 1px solid black;
 }
+
+.color-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 10px 0 18px;
+}
+
+.color-label {
+  color: var(--muted);
+}
+
+.color-swatch {
+  width: 34px;
+  height: 18px;
+  border-radius: 6px;
+  border: 1px solid var(--border);
+  background: #2f6feb;
+}
